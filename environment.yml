@@ -42,3 +42,4 @@ dependencies:
   - r-moments
   - r-slider
   - r-reticulate
+  - r-rjson

@@ -64,11 +64,14 @@ All of them were run this way, from the committed data, to produce the notebook 
 1. `analysis/genomics/04_gene_attribution/C1. gene_attribution.ipynb`
 1. `analysis/genomics/04_gene_attribution/C2. variant_catalogue.ipynb`
 1. `analysis/genomics/05_genome_mapping/E1. affected_genes_map.ipynb`
+1. `analysis/genomics/05_genome_mapping/E2. format_datasets.ipynb`
 1. `analysis/genomics/06_mutators/F0. variant_to_mutator_bg.ipynb`
 1. `analysis/genomics/06_mutators/F1. mutators.ipynb`
 1. `analysis/genomics/06_mutators/F3. counterfactual_effects.ipynb`
 1. `analysis/genomics/07_mutation_statistics/G1. mutation_statistics.ipynb`
 1. `analysis/genomics/08_convergence/N0. null_model.ipynb`
+1. `analysis/genomics/08_convergence/N2. parallelism_python.ipynb`
+1. `analysis/genomics/08_convergence/N3. parallelism_R.ipynb`
 1. `analysis/genomics/09_phage_fhuA/P1. fhuA.ipynb`
 1. `analysis/genomics/09_phage_fhuA/P2. phage_dynamics.ipynb`
 1. `analysis/genomics/10_mutation_traces/experiment_overview.ipynb`
@@ -124,6 +127,9 @@ The supplementary genomics figure (mutation multiplicity vs null) is
 `analysis/genomics/08_convergence/Plots/multiplicity_vs_null.png`, made by `N0. null_model.ipynb` (Python). The growth-curve reproducibility figure is written by
 `analysis/growth_curves/2025-03-23_AF_gamma/growth_curve_plots_esch_AF_gamma.ipynb`,
 and the promoter-mutation figure by `analysis/genomics/07_mutation_statistics/G1. mutation_statistics.ipynb`.
+The similarity between the branches following cross-contaminations (currently left out of the manuscript) is
+`analysis/genomics/08_convergence/Plots/convergence_across_contaminations_montage.png`: `N2. parallelism_python.ipynb`
+runs the permutation tests and `N3. parallelism_R.ipynb` draws the figure.
 
 ### Upstream steps (included for provenance, not run here)
 
@@ -160,7 +166,8 @@ Other committed inputs:
 
 - `datasets/genomics/vcf/`: breseq variant calls (VCF) for every sequenced population sample
 - `datasets/genomics/reference_genome/`: MG1655 (U00096) and Φ80 (JX871397) sequences and annotations
-- `datasets/genomics/external_datasets/`: RegulonDB transcription units and promoters, essential genes
+- `datasets/genomics/external_datasets/`: RegulonDB transcription units and promoters, essential genes,
+  COG pathway of each gene (`COG/gene_name_to_COG_info.tsv`)
 - `datasets/genomics/06_mutators/Data_from_Good_2017/`: mutation trajectories from Good et al. 2017
 - `datasets/genomics/10_mutation_traces/lineages.tsv`: hand-written lineage table
 - `datasets/growth_curves/*/`: plate-reader exports, one folder per experiment

@@ -14,10 +14,13 @@ analysis/**/*.rds
 figures/output/**
 figures/panels/**
 !**/.gitkeep
+datasets/genomics/08_convergence/results/cosine_similarities/*
+!datasets/genomics/08_convergence/results/cosine_similarities/.gitkeep
 
 # ...except the reference copies of the paper figures
 !/analysis/genomics/07_mutation_statistics/Plots/prom_mut_plot.png
 !/analysis/genomics/08_convergence/Plots/multiplicity_vs_null.png
+!/analysis/genomics/08_convergence/Plots/convergence_across_contaminations_montage.png
 !/analysis/growth_curves/2025-03-23_AF_gamma/Plots/growth_curve_reproductibility.png
 !/figures/output/latent_traits.png
 !/figures/output/supp_structural.png
@@ -52,9 +55,14 @@ figures/panels/**
 /datasets/genomics/04_gene_attribution/results/d_labeled_replays.tsv
 /datasets/genomics/04_gene_attribution/results/initial_variants
 /datasets/genomics/04_gene_attribution/results/v.tsv
+/datasets/genomics/04_gene_attribution/results/v_all.tsv
 /datasets/genomics/04_gene_attribution/results/v_replays.tsv
+/datasets/genomics/05_genome_mapping/results/context_to_affected.tsv
+/datasets/genomics/05_genome_mapping/results/context_to_details.tsv
+/datasets/genomics/05_genome_mapping/results/context_to_footprint.tsv
 /datasets/genomics/05_genome_mapping/results/d_aff.tsv
 /datasets/genomics/05_genome_mapping/results/ig_to_first_gene.tsv
+/datasets/genomics/05_genome_mapping/results/name_to_details.tsv
 /datasets/genomics/06_mutators/results/Codon_substitution_observed/tid_to_codon_sub_coding.tsv
 /datasets/genomics/06_mutators/results/Codon_substitution_observed/tid_to_codon_sub_noncoding.tsv
 /datasets/genomics/06_mutators/results/genetic_code.tsv
