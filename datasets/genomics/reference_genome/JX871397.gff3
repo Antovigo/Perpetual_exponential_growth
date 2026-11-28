@@ -1,0 +1,189 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JX871397.1 1 46150
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10713
+JX871397.1	Genbank	region	1	46150	.	+	.	ID=JX871397.1:1..46150;Dbxref=taxon:10713;gbkey=Src;lab-host=Escherichia coli;mol_type=genomic DNA;old-name=Enterobacteria phage Lula/phi80
+JX871397.1	Genbank	sequence_feature	1	12	.	+	.	ID=id-JX871397.1:1..12;Note=The first 12 bases are a single-stranded 5' extension (sticky end);gbkey=misc_feature;standard_name=cohesive end
+JX871397.1	Genbank	inverted_repeat	109	118	.	+	.	ID=id-JX871397.1:109..118;Note=IR1;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=agaaaggaaa
+JX871397.1	Genbank	inverted_repeat	156	165	.	-	.	ID=id-JX871397.1:156..165;Note=IR1;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=agaaaggaaa
+JX871397.1	Genbank	gene	190	735	.	+	.	ID=gene-PHI80_01;Name=PHI80_01;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_01
+JX871397.1	Genbank	CDS	190	735	.	+	0	ID=cds-AFV29141.1;Parent=gene-PHI80_01;Dbxref=NCBI_GP:AFV29141.1;Name=AFV29141.1;Note=1%3B similar to lambda Nu1%2C N15 gp1;gbkey=CDS;locus_tag=PHI80_01;product=terminase small subunit;protein_id=AFV29141.1;transl_table=11
+JX871397.1	Genbank	gene	710	2632	.	+	.	ID=gene-PHI80_02;Name=PHI80_02;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_02
+JX871397.1	Genbank	CDS	710	2632	.	+	0	ID=cds-AFV29142.1;Parent=gene-PHI80_02;Dbxref=NCBI_GP:AFV29142.1;Name=AFV29142.1;Note=2%3B similar to lambda A%2C N15 gp2;gbkey=CDS;locus_tag=PHI80_02;product=terminase large subunit;protein_id=AFV29142.1;transl_table=11
+JX871397.1	Genbank	gene	2632	2838	.	+	.	ID=gene-PHI80_03;Name=PHI80_03;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_03
+JX871397.1	Genbank	CDS	2632	2838	.	+	0	ID=cds-AFV29143.1;Parent=gene-PHI80_03;Dbxref=NCBI_GP:AFV29143.1;Name=AFV29143.1;Note=similar to lambda W%2C N15 gp3;gbkey=CDS;locus_tag=PHI80_03;product=head-tail joining protein;protein_id=AFV29143.1;transl_table=11
+JX871397.1	Genbank	gene	2835	4427	.	+	.	ID=gene-PHI80_04;Name=PHI80_04;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_04
+JX871397.1	Genbank	CDS	2835	4427	.	+	0	ID=cds-AFV29144.1;Parent=gene-PHI80_04;Dbxref=NCBI_GP:AFV29144.1;Name=AFV29144.1;Note=similar to lambda B%2C N15 gp4;gbkey=CDS;locus_tag=PHI80_04;product=capsid portal protein;protein_id=AFV29144.1;transl_table=11
+JX871397.1	Genbank	gene	4408	5751	.	+	.	ID=gene-PHI80_05;Name=PHI80_05;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_05
+JX871397.1	Genbank	CDS	4408	5751	.	+	0	ID=cds-AFV29145.1;Parent=gene-PHI80_05;Dbxref=NCBI_GP:AFV29145.1;Name=AFV29145.1;Note=similar to lambda C%2C N15 gp5~contains peptidase S49 domain;gbkey=CDS;locus_tag=PHI80_05;product=capsid serine protease;protein_id=AFV29145.1;transl_table=11
+JX871397.1	Genbank	gene	5761	6093	.	+	.	ID=gene-PHI80_06;Name=PHI80_06;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_06
+JX871397.1	Genbank	CDS	5761	6093	.	+	0	ID=cds-AFV29146.1;Parent=gene-PHI80_06;Dbxref=NCBI_GP:AFV29146.1;Name=AFV29146.1;Note=similar to lambda D%2C N15 gp7;gbkey=CDS;locus_tag=PHI80_06;product=head-DNA stabilization protein;protein_id=AFV29146.1;transl_table=11
+JX871397.1	Genbank	gene	6161	7186	.	+	.	ID=gene-PHI80_07;Name=PHI80_07;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_07
+JX871397.1	Genbank	CDS	6161	7186	.	+	0	ID=cds-AFV29147.1;Parent=gene-PHI80_07;Dbxref=UniProtKB/Swiss-Prot:P05481,NCBI_GP:AFV29147.1;Name=AFV29147.1;Note=5%3B similar to lambda E%2C N15 gp8;gbkey=CDS;locus_tag=PHI80_07;product=major capsid (head) protein;protein_id=AFV29147.1;transl_table=11
+JX871397.1	Genbank	gene	7196	7648	.	+	.	ID=gene-PHI80_08;Name=PHI80_08;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_08
+JX871397.1	Genbank	CDS	7196	7648	.	+	0	ID=cds-AFV29148.1;Parent=gene-PHI80_08;Dbxref=NCBI_GP:AFV29148.1;Name=AFV29148.1;Note=similar to lambda FI%2C N15 gp9;gbkey=CDS;locus_tag=PHI80_08;product=DNA packaging protein;protein_id=AFV29148.1;transl_table=11
+JX871397.1	Genbank	gene	7660	8013	.	+	.	ID=gene-PHI80_09;Name=PHI80_09;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_09
+JX871397.1	Genbank	CDS	7660	8013	.	+	0	ID=cds-AFV29149.1;Parent=gene-PHI80_09;Dbxref=NCBI_GP:AFV29149.1;Name=AFV29149.1;Note=similar to lambda FII%2C N15 gp10;gbkey=CDS;locus_tag=PHI80_09;product=head-tail joining protein;protein_id=AFV29149.1;transl_table=11
+JX871397.1	Genbank	gene	8023	8607	.	+	.	ID=gene-PHI80_10;Name=PHI80_10;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_10
+JX871397.1	Genbank	CDS	8023	8607	.	+	0	ID=cds-AFV29150.1;Parent=gene-PHI80_10;Dbxref=NCBI_GP:AFV29150.1;Name=AFV29150.1;Note=similar to lambda Z%2C N15 gp11;gbkey=CDS;locus_tag=PHI80_10;product=minor tail protein;protein_id=AFV29150.1;transl_table=11
+JX871397.1	Genbank	gene	8604	9002	.	+	.	ID=gene-PHI80_11;Name=PHI80_11;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_11
+JX871397.1	Genbank	CDS	8604	9002	.	+	0	ID=cds-AFV29151.1;Parent=gene-PHI80_11;Dbxref=NCBI_GP:AFV29151.1;Name=AFV29151.1;Note=similar to lambda U%2C N15 gp12;gbkey=CDS;locus_tag=PHI80_11;product=tail terminator protein;protein_id=AFV29151.1;transl_table=11
+JX871397.1	Genbank	gene	9010	9753	.	+	.	ID=gene-PHI80_12;Name=PHI80_12;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_12
+JX871397.1	Genbank	CDS	9010	9753	.	+	0	ID=cds-AFV29152.1;Parent=gene-PHI80_12;Dbxref=NCBI_GP:AFV29152.1;Name=AFV29152.1;Note=similar to lambda V%2C N15 gp13;gbkey=CDS;locus_tag=PHI80_12;product=major tail protein;protein_id=AFV29152.1;transl_table=11
+JX871397.1	Genbank	gene	9764	10195	.	+	.	ID=gene-PHI80_13;Name=PHI80_13;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_13
+JX871397.1	Genbank	CDS	9764	10195	.	+	0	ID=cds-AFV29153.1;Parent=gene-PHI80_13;Dbxref=NCBI_GP:AFV29153.1;Name=AFV29153.1;Note=similar to lambda G%2C N15 gp14;gbkey=CDS;locus_tag=PHI80_13;product=tail assembly chaperone;protein_id=AFV29153.1;transl_table=11
+JX871397.1	Genbank	gene	10246	10518	.	+	.	ID=gene-PHI80_14;Name=PHI80_14;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_14
+JX871397.1	Genbank	CDS	10246	10518	.	+	0	ID=cds-AFV29154.1;Parent=gene-PHI80_14;Dbxref=NCBI_GP:AFV29154.1;Name=AFV29154.1;Note=similar to lambda T%2C N15 gp15;gbkey=CDS;locus_tag=PHI80_14;product=minor tail protein;protein_id=AFV29154.1;transl_table=11
+JX871397.1	Genbank	inverted_repeat	10429	10438	.	+	.	ID=id-PHI80_14;Note=IR2;gbkey=repeat_region;locus_tag=PHI80_14;rpt_type=inverted;rpt_unit_seq=gtcatcagcg
+JX871397.1	Genbank	inverted_repeat	10460	10469	.	-	.	ID=id-JX871397.1:10460..10469;Note=IR2;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=gtcatcagcg
+JX871397.1	Genbank	gene	10502	13639	.	+	.	ID=gene-PHI80_15;Name=PHI80_15;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_15
+JX871397.1	Genbank	CDS	10502	13639	.	+	0	ID=cds-AFV29155.1;Parent=gene-PHI80_15;Dbxref=NCBI_GP:AFV29155.1;Name=AFV29155.1;Note=similar to lambda H%2C N15 gp16;gbkey=CDS;locus_tag=PHI80_15;product=tail length tape measure protein precursor;protein_id=AFV29155.1;transl_table=11
+JX871397.1	Genbank	gene	13636	13974	.	+	.	ID=gene-PHI80_16;Name=PHI80_16;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_16
+JX871397.1	Genbank	CDS	13636	13974	.	+	0	ID=cds-AFV29156.1;Parent=gene-PHI80_16;Dbxref=NCBI_GP:AFV29156.1;Name=AFV29156.1;Note=similar to lambda M%2C N15 gp17;gbkey=CDS;locus_tag=PHI80_16;product=minor tail protein;protein_id=AFV29156.1;transl_table=11
+JX871397.1	Genbank	terminator	13996	14019	.	+	.	ID=id-JX871397.1:13996..14019;Note=putative rightward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	14031	14768	.	+	.	ID=gene-PHI80_17;Name=PHI80_17;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_17
+JX871397.1	Genbank	CDS	14031	14768	.	+	0	ID=cds-AFV29157.1;Parent=gene-PHI80_17;Dbxref=NCBI_GP:AFV29157.1;Name=AFV29157.1;Note=similar to lambda L%2C N15 gp18;gbkey=CDS;locus_tag=PHI80_17;product=minor tail protein;protein_id=AFV29157.1;transl_table=11
+JX871397.1	Genbank	terminator	14721	14741	.	+	.	ID=id-PHI80_17;Parent=gene-PHI80_17;Note=putative rightward transcription terminator;gbkey=regulatory;locus_tag=PHI80_17;regulatory_class=terminator
+JX871397.1	Genbank	gene	14770	15489	.	+	.	ID=gene-PHI80_18;Name=PHI80_18;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_18
+JX871397.1	Genbank	CDS	14770	15489	.	+	0	ID=cds-AFV29158.1;Parent=gene-PHI80_18;Dbxref=NCBI_GP:AFV29158.1;Name=AFV29158.1;Note=similar to lambda K%2C N15 gp19;gbkey=CDS;locus_tag=PHI80_18;product=tail fiber cell wall hydrolase;protein_id=AFV29158.1;transl_table=11
+JX871397.1	Genbank	gene	15482	16099	.	+	.	ID=gene-PHI80_19;Name=PHI80_19;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_19
+JX871397.1	Genbank	CDS	15482	16099	.	+	0	ID=cds-AFV29159.1;Parent=gene-PHI80_19;Dbxref=NCBI_GP:AFV29159.1;Name=AFV29159.1;Note=similar to lambda I%2C N15 gp20;gbkey=CDS;locus_tag=PHI80_19;product=tail assembly protein;protein_id=AFV29159.1;transl_table=11
+JX871397.1	Genbank	gene	16104	16637	.	+	.	ID=gene-PHI80_20;Name=morF;gbkey=Gene;gene=morF;gene_biotype=protein_coding;locus_tag=PHI80_20
+JX871397.1	Genbank	CDS	16104	16637	.	+	0	ID=cds-AFV29160.1;Parent=gene-PHI80_20;Dbxref=NCBI_GP:AFV29160.1;Name=AFV29160.1;gbkey=CDS;gene=morF;locus_tag=PHI80_20;product=hypothetical protein;protein_id=AFV29160.1;transl_table=11
+JX871397.1	Genbank	gene	16630	20208	.	+	.	ID=gene-PHI80_21;Name=PHI80_21;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_21
+JX871397.1	Genbank	CDS	16630	20208	.	+	0	ID=cds-AFV29161.1;Parent=gene-PHI80_21;Dbxref=NCBI_GP:AFV29161.1;Name=AFV29161.1;Note=similar to lambda J%2C N15 gp21;gbkey=CDS;locus_tag=PHI80_21;product=host specificity protein (tail fiber protein);protein_id=AFV29161.1;transl_table=11
+JX871397.1	Genbank	gene	20210	20512	.	+	.	ID=gene-PHI80_22;Name=PHI80_22;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_22
+JX871397.1	Genbank	CDS	20210	20512	.	+	0	ID=cds-AFV29162.1;Parent=gene-PHI80_22;Dbxref=NCBI_GP:AFV29162.1;Name=AFV29162.1;Note=similar to N15 gp22;gbkey=CDS;locus_tag=PHI80_22;product=hypothetical protein;protein_id=AFV29162.1;transl_table=11
+JX871397.1	Genbank	gene	20512	21186	.	+	.	ID=gene-PHI80_23;Name=PHI80_23;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_23
+JX871397.1	Genbank	CDS	20512	21186	.	+	0	ID=cds-AFV29163.1;Parent=gene-PHI80_23;Dbxref=NCBI_GP:AFV29163.1;Name=AFV29163.1;Note=similar to N15 gp23;gbkey=CDS;locus_tag=PHI80_23;product=hypothetical protein;protein_id=AFV29163.1;transl_table=11
+JX871397.1	Genbank	gene	21298	21531	.	+	.	ID=gene-PHI80_24;Name=cor;gbkey=Gene;gene=cor;gene_biotype=protein_coding;locus_tag=PHI80_24
+JX871397.1	Genbank	CDS	21298	21531	.	+	0	ID=cds-AFV29164.1;Parent=gene-PHI80_24;Dbxref=UniProtKB/Swiss-Prot:P17651,NCBI_GP:AFV29164.1;Name=AFV29164.1;Note=similar to N15 Cor;gbkey=CDS;gene=cor;locus_tag=PHI80_24;product=phage superinfection exclusion protein Cor;protein_id=AFV29164.1;transl_table=11
+JX871397.1	Genbank	terminator	21553	21575	.	+	.	ID=id-JX871397.1:21553..21575;Note=putative rightward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	21592	22803	.	+	.	ID=gene-PHI80_25;Name=PHI80_25;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_25
+JX871397.1	Genbank	CDS	21592	22803	.	+	0	ID=cds-AFV29165.1;Parent=gene-PHI80_25;Dbxref=NCBI_GP:AFV29165.1;Name=AFV29165.1;gbkey=CDS;locus_tag=PHI80_25;product=tail fiber protein of complex nature;protein_id=AFV29165.1;transl_table=11
+JX871397.1	Genbank	protein_binding_site	22746	22761	.	+	.	ID=id-PHI80_25;Note=predicted LexA binding site;bound_moiety=LexA;gbkey=protein_bind;locus_tag=PHI80_25
+JX871397.1	Genbank	gene	22877	23191	.	+	.	ID=gene-PHI80_26;Name=PHI80_26;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_26
+JX871397.1	Genbank	CDS	22877	23191	.	+	0	ID=cds-AFV29166.1;Parent=gene-PHI80_26;Dbxref=NCBI_GP:AFV29166.1;Name=AFV29166.1;Note=antisense to PHI80_27;gbkey=CDS;locus_tag=PHI80_26;product=hypothetical protein;protein_id=AFV29166.1;transl_table=11
+JX871397.1	Genbank	gene	22930	23169	.	-	.	ID=gene-PHI80_27;Name=dinL;gbkey=Gene;gene=dinL;gene_biotype=protein_coding;locus_tag=PHI80_27
+JX871397.1	Genbank	CDS	22930	23169	.	-	0	ID=cds-AFV29167.1;Parent=gene-PHI80_27;Dbxref=NCBI_GP:AFV29167.1;Name=AFV29167.1;Note=msgA%3B virulence protein (macrophage survival gene);gbkey=CDS;gene=dinL;locus_tag=PHI80_27;product=DinI family protein;protein_id=AFV29167.1;transl_table=11
+JX871397.1	Genbank	protein_binding_site	23210	23225	.	-	.	ID=id-JX871397.1:23210..23225;Note=predicted LexA binding site;bound_moiety=LexA;gbkey=protein_bind
+JX871397.1	Genbank	pseudogene	23416	23526	.	-	.	ID=gene-PHI80_28;Name=PHI80_28;gbkey=Gene;gene_biotype=pseudogene;locus_tag=PHI80_28;pseudo=true
+JX871397.1	Genbank	CDS	23416	23526	.	-	0	ID=cds-PHI80_28;Parent=gene-PHI80_28;Note=N-terminal fragment%2C protein of unknown function DUF72/UPF0759 (pseudogene);gbkey=CDS;locus_tag=PHI80_28;pseudo=true;transl_table=11
+JX871397.1	Genbank	pseudogene	23683	23874	.	-	.	ID=gene-PHI80_29;Name=PHI80_29;gbkey=Gene;gene_biotype=pseudogene;locus_tag=PHI80_29;pseudo=true
+JX871397.1	Genbank	CDS	23683	23874	.	-	0	ID=cds-PHI80_29;Parent=gene-PHI80_29;Note=internal fragment%2C phage tail collar domain protein (pseudogene);gbkey=CDS;locus_tag=PHI80_29;pseudo=true;transl_table=11
+JX871397.1	Genbank	inverted_repeat	23919	23929	.	+	.	ID=id-JX871397.1:23919..23929;Note=IR3;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=cttctcctgtt
+JX871397.1	Genbank	inverted_repeat	23935	23945	.	-	.	ID=id-JX871397.1:23935..23945;Note=IR3;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=cttctcctgtt
+JX871397.1	Genbank	gene	23951	24469	.	+	.	ID=gene-PHI80_30;Name=pinL;gbkey=Gene;gene=pinL;gene_biotype=protein_coding;locus_tag=PHI80_30
+JX871397.1	Genbank	CDS	23951	24469	.	+	0	ID=cds-AFV29168.1;Parent=gene-PHI80_30;Dbxref=NCBI_GP:AFV29168.1;Name=AFV29168.1;gbkey=CDS;gene=pinL;locus_tag=PHI80_30;product=DNA invertase%2C resolvase%2C site-specific recombinase Pin;protein_id=AFV29168.1;transl_table=11
+JX871397.1	Genbank	protein_binding_site	24584	24596	.	+	.	ID=id-JX871397.1:24584..24596;bound_moiety=IHF;gbkey=protein_bind
+JX871397.1	Genbank	recombination_feature	24623	24639	.	+	.	ID=id-JX871397.1:24623..24639;Note=attP core;gbkey=misc_recomb
+JX871397.1	Genbank	minus_35_signal	24754	24759	.	+	.	ID=id-JX871397.1:24754..24759;Note=pI%3B possible promoter for int;gbkey=regulatory;regulatory_class=minus_35_signal
+JX871397.1	Genbank	minus_10_signal	24781	24786	.	+	.	ID=id-JX871397.1:24781..24786;Note=pI%3B possible promoter for int;gbkey=regulatory;regulatory_class=minus_10_signal
+JX871397.1	Genbank	gene	24808	26016	.	+	.	ID=gene-PHI80_31;Name=int;gbkey=Gene;gene=int;gene_biotype=protein_coding;locus_tag=PHI80_31
+JX871397.1	Genbank	CDS	24808	26016	.	+	0	ID=cds-AFV29169.1;Parent=gene-PHI80_31;Dbxref=UniProtKB/Swiss-Prot:P06155,NCBI_GP:AFV29169.1;Name=AFV29169.1;Note=similar to lambda Int;gbkey=CDS;gene=int;locus_tag=PHI80_31;product=integrase;protein_id=AFV29169.1;transl_table=11
+JX871397.1	Genbank	terminator	25961	25981	.	-	.	ID=id-JX871397.1:25961..25981;Note=putative leftward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	26013	26210	.	-	.	ID=gene-PHI80_32;Name=xis;gbkey=Gene;gene=xis;gene_biotype=protein_coding;locus_tag=PHI80_32
+JX871397.1	Genbank	CDS	26013	26210	.	-	0	ID=cds-AFV29170.1;Parent=gene-PHI80_32;Dbxref=UniProtKB/Swiss-Prot:P05998,NCBI_GP:AFV29170.1;Name=AFV29170.1;Note=similar to lambda Xis;gbkey=CDS;gene=xis;locus_tag=PHI80_32;product=excisionase;protein_id=AFV29170.1;transl_table=11
+JX871397.1	Genbank	gene	26252	26497	.	-	.	ID=gene-PHI80_33;Name=PHI80_33;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_33
+JX871397.1	Genbank	CDS	26252	26497	.	-	0	ID=cds-AFV29171.1;Parent=gene-PHI80_33;Dbxref=NCBI_GP:AFV29171.1;Name=AFV29171.1;gbkey=CDS;locus_tag=PHI80_33;product=hypothetical protein;protein_id=AFV29171.1;transl_table=11
+JX871397.1	Genbank	pseudogene	26494	27379	.	-	.	ID=gene-PHI80_34;Name=damL;gbkey=Gene;gene=damL;gene_biotype=pseudogene;locus_tag=PHI80_34;pseudo=true
+JX871397.1	Genbank	CDS	26494	27379	.	-	0	ID=cds-PHI80_34;Parent=gene-PHI80_34;Note=DNA adenine methylase pseudogene%2C disrupted by a frameshift%3B potential for slipped-strand DNA synthesis (-1 or +2) in a run of 8 Ts to generate intact gene;gbkey=CDS;gene=damL;locus_tag=PHI80_34;pseudo=true;transl_table=11
+JX871397.1	Genbank	gene	27525	27959	.	-	.	ID=gene-PHI80_36;Name=PHI80_36;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_36
+JX871397.1	Genbank	CDS	27525	27959	.	-	0	ID=cds-AFV29172.1;Parent=gene-PHI80_36;Dbxref=NCBI_GP:AFV29172.1;Name=AFV29172.1;gbkey=CDS;locus_tag=PHI80_36;product=hypothetical protein;protein_id=AFV29172.1;transl_table=11
+JX871397.1	Genbank	gene	27950	28630	.	-	.	ID=gene-PHI80_37;Name=exo;gbkey=Gene;gene=exo;gene_biotype=protein_coding;locus_tag=PHI80_37
+JX871397.1	Genbank	CDS	27950	28630	.	-	0	ID=cds-AFV29173.1;Parent=gene-PHI80_37;Dbxref=NCBI_GP:AFV29173.1;Name=AFV29173.1;Note=similar to lambda Exo;gbkey=CDS;gene=exo;locus_tag=PHI80_37;product=phage exonuclease;protein_id=AFV29173.1;transl_table=11
+JX871397.1	Genbank	gene	28627	29544	.	-	.	ID=gene-PHI80_38;Name=rec;gbkey=Gene;gene=rec;gene_biotype=protein_coding;locus_tag=PHI80_38
+JX871397.1	Genbank	CDS	28627	29544	.	-	0	ID=cds-AFV29174.1;Parent=gene-PHI80_38;Dbxref=NCBI_GP:AFV29174.1;Name=AFV29174.1;Note=bet;gbkey=CDS;gene=rec;locus_tag=PHI80_38;product=phage recombinase-annealing protein RecT;protein_id=AFV29174.1;transl_table=11
+JX871397.1	Genbank	gene	29554	29835	.	-	.	ID=gene-PHI80_39;Name=gamL;gbkey=Gene;gene=gamL;gene_biotype=protein_coding;locus_tag=PHI80_39
+JX871397.1	Genbank	CDS	29554	29835	.	-	0	ID=cds-AFV29175.1;Parent=gene-PHI80_39;Dbxref=NCBI_GP:AFV29175.1;Name=AFV29175.1;Note=toxic without Mog;gbkey=CDS;gene=gamL;locus_tag=PHI80_39;product=host RecBCD/SbcCD enzymes inhibitor;protein_id=AFV29175.1;transl_table=11
+JX871397.1	Genbank	gene	29843	30811	.	-	.	ID=gene-PHI80_40;Name=agt;gbkey=Gene;gene=agt;gene_biotype=protein_coding;locus_tag=PHI80_40
+JX871397.1	Genbank	CDS	29843	30811	.	-	0	ID=cds-AFV29176.1;Parent=gene-PHI80_40;Dbxref=NCBI_GP:AFV29176.1;Name=AFV29176.1;Note=Mog (modifier of Gam);gbkey=CDS;gene=agt;locus_tag=PHI80_40;product=anti-toxin for Gam;protein_id=AFV29176.1;transl_table=11
+JX871397.1	Genbank	gene	30916	31752	.	-	.	ID=gene-PHI80_41;Name=PHI80_41;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_41
+JX871397.1	Genbank	CDS	30916	31752	.	-	0	ID=cds-AFV29177.1;Parent=gene-PHI80_41;Dbxref=NCBI_GP:AFV29177.1;Name=AFV29177.1;gbkey=CDS;locus_tag=PHI80_41;product=hypothetical protein;protein_id=AFV29177.1;transl_table=11
+JX871397.1	Genbank	gene	31763	31972	.	-	.	ID=gene-PHI80_42;Name=kil;gbkey=Gene;gene=kil;gene_biotype=protein_coding;locus_tag=PHI80_42
+JX871397.1	Genbank	CDS	31763	31972	.	-	0	ID=cds-AFV29178.1;Parent=gene-PHI80_42;Dbxref=NCBI_GP:AFV29178.1;Name=AFV29178.1;Note=blocks host cell division;gbkey=CDS;gene=kil;locus_tag=PHI80_42;product=FtsZ inhibitor protein Kil;protein_id=AFV29178.1;transl_table=11
+JX871397.1	Genbank	gene	31904	32146	.	+	.	ID=gene-PHI80_43;Name=PHI80_43;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_43
+JX871397.1	Genbank	CDS	31904	32146	.	+	0	ID=cds-AFV29179.1;Parent=gene-PHI80_43;Dbxref=NCBI_GP:AFV29179.1;Name=AFV29179.1;Note=antisense to PHI80_44;gbkey=CDS;locus_tag=PHI80_43;product=hypothetical protein;protein_id=AFV29179.1;transl_table=11
+JX871397.1	Genbank	gene	31969	32169	.	-	.	ID=gene-PHI80_44;Name=PHI80_44;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_44
+JX871397.1	Genbank	CDS	31969	32169	.	-	0	ID=cds-AFV29180.1;Parent=gene-PHI80_44;Dbxref=NCBI_GP:AFV29180.1;Name=AFV29180.1;Note=antisense to PHI80_43;gbkey=CDS;locus_tag=PHI80_44;product=hypothetical protein;protein_id=AFV29180.1;transl_table=11
+JX871397.1	Genbank	terminator	32262	32299	.	-	.	ID=id-JX871397.1:32262..32299;Note=tL1B%3B rho-dependent leftward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	terminator	32473	32495	.	-	.	ID=id-JX871397.1:32473..32495;Note=tL1A%3B rho-independent leftward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	32494	32790	.	-	.	ID=gene-PHI80_45;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=PHI80_45
+JX871397.1	Genbank	CDS	32494	32790	.	-	0	ID=cds-AFV29181.1;Parent=gene-PHI80_45;Dbxref=UniProtKB/Swiss-Prot:P06154,NCBI_GP:AFV29181.1;Name=AFV29181.1;Note=similar to lambda N;gbkey=CDS;gene=N;locus_tag=PHI80_45;product=early transcription antiterminator protein N;protein_id=AFV29181.1;transl_table=11
+JX871397.1	Genbank	regulatory_region	33078	33089	.	-	.	ID=id-JX871397.1:33078..33089;Note=nutL core%3B putative N-utilization leftward;gbkey=regulatory;regulatory_class=other
+JX871397.1	Genbank	regulatory_region	33134	33142	.	-	.	ID=id-JX871397.1:33134..33142;Note=nutL boxA%3B putative N-utilization leftward;gbkey=regulatory;regulatory_class=other
+JX871397.1	Genbank	protein_binding_site	33207	33225	.	+	.	ID=id-JX871397.1:33207..33225;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oL1
+JX871397.1	Genbank	minus_10_signal	33207	33212	.	-	.	ID=id-JX871397.1:33207..33212;Note=pL%3B leftward promoter for early transcription;gbkey=regulatory;regulatory_class=minus_10_signal
+JX871397.1	Genbank	protein_binding_site	33230	33248	.	+	.	ID=id-JX871397.1:33230..33248;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oL2
+JX871397.1	Genbank	minus_35_signal	33230	33235	.	-	.	ID=id-JX871397.1:33230..33235;Note=pL%3B leftward promoter for early transcription;gbkey=regulatory;regulatory_class=minus_35_signal
+JX871397.1	Genbank	protein_binding_site	33273	33292	.	+	.	ID=id-JX871397.1:33273..33292;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oL3
+JX871397.1	Genbank	gene	33588	34454	.	-	.	ID=gene-PHI80_46;Name=PHI80_46;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_46
+JX871397.1	Genbank	CDS	33588	34454	.	-	0	ID=cds-AFV29182.1;Parent=gene-PHI80_46;Dbxref=UniProtKB/Swiss-Prot:P14817,NCBI_GP:AFV29182.1;Name=AFV29182.1;Note=40A;gbkey=CDS;locus_tag=PHI80_46;product=protein 40A (acetate kinase superfamily domain);protein_id=AFV29182.1;transl_table=11
+JX871397.1	Genbank	gene	34591	35301	.	-	.	ID=gene-PHI80_47;Name=cI;gbkey=Gene;gene=cI;gene_biotype=protein_coding;locus_tag=PHI80_47
+JX871397.1	Genbank	CDS	34591	35301	.	-	0	ID=cds-AFV29183.1;Parent=gene-PHI80_47;Dbxref=UniProtKB/Swiss-Prot:P14819,NCBI_GP:AFV29183.1;Name=AFV29183.1;gbkey=CDS;gene=cI;locus_tag=PHI80_47;product=CI transcriptional regulator;protein_id=AFV29183.1;transl_table=11
+JX871397.1	Genbank	minus_10_signal	35321	35326	.	-	.	ID=id-JX871397.1:35321..35326;Note=pRM%3B promoter for repression maintenance;gbkey=regulatory;regulatory_class=minus_10_signal
+JX871397.1	Genbank	protein_binding_site	35323	35341	.	+	.	ID=id-JX871397.1:35323..35341;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oR3
+JX871397.1	Genbank	minus_35_signal	35344	35349	.	-	.	ID=id-JX871397.1:35344..35349;Note=pRM%3B promoter for repression maintenance;gbkey=regulatory;regulatory_class=minus_35_signal
+JX871397.1	Genbank	protein_binding_site	35347	35365	.	+	.	ID=id-JX871397.1:35347..35365;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oR2
+JX871397.1	Genbank	minus_35_signal	35360	35365	.	+	.	ID=id-JX871397.1:35360..35365;Note=pR%3B rightward promoter for early transcription;gbkey=regulatory;regulatory_class=minus_35_signal
+JX871397.1	Genbank	protein_binding_site	35380	35398	.	+	.	ID=id-JX871397.1:35380..35398;bound_moiety=gp30;function=operator;gbkey=protein_bind;standard_name=oR1
+JX871397.1	Genbank	minus_10_signal	35383	35388	.	+	.	ID=id-JX871397.1:35383..35388;Note=pR%3B rightward promoter for early transcription;gbkey=regulatory;regulatory_class=minus_10_signal
+JX871397.1	Genbank	gene	35419	35640	.	+	.	ID=gene-PHI80_48;Name=PHI80_48;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_48
+JX871397.1	Genbank	CDS	35419	35640	.	+	0	ID=cds-AFV29184.1;Parent=gene-PHI80_48;Dbxref=UniProtKB/Swiss-Prot:P14816,NCBI_GP:AFV29184.1;Name=AFV29184.1;Note=30;gbkey=CDS;locus_tag=PHI80_48;product=Cro-like transcriptional regulator;protein_id=AFV29184.1;transl_table=11
+JX871397.1	Genbank	gene	35671	36213	.	+	.	ID=gene-PHI80_49;Name=cII;gbkey=Gene;gene=cII;gene_biotype=protein_coding;locus_tag=PHI80_49
+JX871397.1	Genbank	CDS	35671	36213	.	+	0	ID=cds-AFV29185.1;Parent=gene-PHI80_49;Dbxref=UniProtKB/Swiss-Prot:P14820,NCBI_GP:AFV29185.1;Name=AFV29185.1;gbkey=CDS;gene=cII;locus_tag=PHI80_49;product=CII decision making protein;protein_id=AFV29185.1;transl_table=11
+JX871397.1	Genbank	gene	36229	36288	.	-	.	ID=gene-PHI80_R1;Name=PHI80_R1;gbkey=Gene;gene_biotype=antisense_RNA;locus_tag=PHI80_R1
+JX871397.1	Genbank	antisense_RNA	36229	36288	.	-	.	ID=rna-PHI80_R1;Parent=gene-PHI80_R1;Note=homolog of lambda oop RNA;gbkey=ncRNA;locus_tag=PHI80_R1;product=M3 RNA
+JX871397.1	Genbank	exon	36229	36288	.	-	.	ID=exon-PHI80_R1-1;Parent=rna-PHI80_R1;Note=homolog of lambda oop RNA;gbkey=ncRNA;locus_tag=PHI80_R1;product=M3 RNA
+JX871397.1	Genbank	gene	36299	37207	.	+	.	ID=gene-PHI80_50;Name=PHI80_50;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_50
+JX871397.1	Genbank	CDS	36299	37207	.	+	0	ID=cds-AFV29186.1;Parent=gene-PHI80_50;Dbxref=UniProtKB/Swiss-Prot:P14815,NCBI_GP:AFV29186.1;Name=AFV29186.1;Note=15%3B similar to lambda O;gbkey=CDS;locus_tag=PHI80_50;product=replication initiation protein 15;protein_id=AFV29186.1;transl_table=11
+JX871397.1	Genbank	protein_binding_site	36663	36677	.	+	.	ID=id-PHI80_50;bound_moiety=gp15;gbkey=protein_bind;locus_tag=PHI80_50;standard_name=ori iteron 4
+JX871397.1	Genbank	protein_binding_site	36683	36698	.	+	.	ID=id-PHI80_50-2;bound_moiety=gp15;gbkey=protein_bind;locus_tag=PHI80_50;standard_name=ori iteron 3
+JX871397.1	Genbank	protein_binding_site	36704	36719	.	+	.	ID=id-PHI80_50-3;bound_moiety=gp15;gbkey=protein_bind;locus_tag=PHI80_50;standard_name=ori iteron 2
+JX871397.1	Genbank	protein_binding_site	36725	36739	.	+	.	ID=id-PHI80_50-4;bound_moiety=gp15;gbkey=protein_bind;locus_tag=PHI80_50;standard_name=ori iteron 1
+JX871397.1	Genbank	gene	37204	37893	.	+	.	ID=gene-PHI80_51;Name=PHI80_51;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_51
+JX871397.1	Genbank	CDS	37204	37893	.	+	0	ID=cds-AFV29187.1;Parent=gene-PHI80_51;Dbxref=UniProtKB/Swiss-Prot:P14814,NCBI_GP:AFV29187.1;Name=AFV29187.1;Note=14%3B similar to lambda P;gbkey=CDS;locus_tag=PHI80_51;product=replication initiation protein 14;protein_id=AFV29187.1;transl_table=11
+JX871397.1	Genbank	gene	37957	38676	.	+	.	ID=gene-PHI80_52;Name=PHI80_52;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_52
+JX871397.1	Genbank	CDS	37957	38676	.	+	0	ID=cds-AFV29188.1;Parent=gene-PHI80_52;Dbxref=NCBI_GP:AFV29188.1;Name=AFV29188.1;Note=similar to N15 gp45;gbkey=CDS;locus_tag=PHI80_52;product=hypothetical protein;protein_id=AFV29188.1;transl_table=11
+JX871397.1	Genbank	inverted_repeat	38786	38795	.	+	.	ID=id-JX871397.1:38786..38795;Note=IR4;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=cgcatttaag
+JX871397.1	Genbank	inverted_repeat	38800	38809	.	-	.	ID=id-JX871397.1:38800..38809;Note=IR4;gbkey=repeat_region;rpt_type=inverted;rpt_unit_seq=cgcatttaag
+JX871397.1	Genbank	gene	38897	39352	.	+	.	ID=gene-PHI80_53;Name=PHI80_53;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_53
+JX871397.1	Genbank	CDS	38897	39352	.	+	0	ID=cds-AFV29189.1;Parent=gene-PHI80_53;Dbxref=NCBI_GP:AFV29189.1;Name=AFV29189.1;gbkey=CDS;locus_tag=PHI80_53;product=PRK09741 superfamily protein;protein_id=AFV29189.1;transl_table=11
+JX871397.1	Genbank	gene	39352	39522	.	+	.	ID=gene-PHI80_67;Name=ninE;gbkey=Gene;gene=ninE;gene_biotype=protein_coding;locus_tag=PHI80_67
+JX871397.1	Genbank	CDS	39352	39522	.	+	0	ID=cds-AFV29190.1;Parent=gene-PHI80_67;Dbxref=NCBI_GP:AFV29190.1;Name=AFV29190.1;gbkey=CDS;gene=ninE;locus_tag=PHI80_67;product=NinE protein;protein_id=AFV29190.1;transl_table=11
+JX871397.1	Genbank	gene	39519	40187	.	+	.	ID=gene-PHI80_54;Name=ppp;gbkey=Gene;gene=ppp;gene_biotype=protein_coding;locus_tag=PHI80_54
+JX871397.1	Genbank	CDS	39519	40187	.	+	0	ID=cds-AFV29191.1;Parent=gene-PHI80_54;Dbxref=NCBI_GP:AFV29191.1;Name=AFV29191.1;Note=PPP%3B similar to lambda NinI (Nin221);gbkey=CDS;gene=ppp;locus_tag=PHI80_54;product=phage protein phosphatase;protein_id=AFV29191.1;transl_table=11
+JX871397.1	Genbank	gene	40180	40821	.	+	.	ID=gene-PHI80_55;Name=rap;gbkey=Gene;gene=rap;gene_biotype=protein_coding;locus_tag=PHI80_55
+JX871397.1	Genbank	CDS	40180	40821	.	+	0	ID=cds-AFV29192.1;Parent=gene-PHI80_55;Dbxref=NCBI_GP:AFV29192.1;Name=AFV29192.1;Note=similar to lambda Rap (NinG%2C Nin204);gbkey=CDS;gene=rap;locus_tag=PHI80_55;product=DNA junction-specific endonuclease Rap;protein_id=AFV29192.1;transl_table=11
+JX871397.1	Genbank	gene	40818	41024	.	+	.	ID=gene-PHI80_56;Name=PHI80_56;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_56
+JX871397.1	Genbank	CDS	40818	41024	.	+	0	ID=cds-AFV29193.1;Parent=gene-PHI80_56;Dbxref=NCBI_GP:AFV29193.1;Name=AFV29193.1;gbkey=CDS;locus_tag=PHI80_56;product=restriction alleviation protein%2C Lar family;protein_id=AFV29193.1;transl_table=11
+JX871397.1	Genbank	gene	41137	41946	.	+	.	ID=gene-PHI80_57;Name=PHI80_57;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_57
+JX871397.1	Genbank	CDS	41137	41946	.	+	0	ID=cds-AFV29194.1;Parent=gene-PHI80_57;Dbxref=NCBI_GP:AFV29194.1;Name=AFV29194.1;Note=17%3B similar to lambda Q;gbkey=CDS;locus_tag=PHI80_57;product=late transcription antitermination protein;protein_id=AFV29194.1;transl_table=11
+JX871397.1	Genbank	minus_35_signal	41989	41994	.	+	.	ID=id-JX871397.1:41989..41994;Note=pR'%3B rightward promoter for late transcription;gbkey=regulatory;regulatory_class=minus_35_signal
+JX871397.1	Genbank	protein_binding_site	41996	42002	.	+	.	ID=id-JX871397.1:41996..42002;bound_moiety=gp17 (Q);gbkey=protein_bind;standard_name=qut
+JX871397.1	Genbank	minus_10_signal	42012	42017	.	+	.	ID=id-JX871397.1:42012..42017;Note=pR'%3B rightward promoter for late transcription;gbkey=regulatory;regulatory_class=minus_10_signal
+JX871397.1	Genbank	terminator	42070	42098	.	+	.	ID=id-JX871397.1:42070..42098;Note=putative rightward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	terminator	42362	42385	.	+	.	ID=id-JX871397.1:42362..42385;Note=putative rightward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	42425	42649	.	+	.	ID=gene-PHI80_58;Name=PHI80_58;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_58
+JX871397.1	Genbank	CDS	42425	42649	.	+	0	ID=cds-AFV29195.1;Parent=gene-PHI80_58;Dbxref=NCBI_GP:AFV29195.1;Name=AFV29195.1;Note=18%3B similar to lambda S;gbkey=CDS;locus_tag=PHI80_58;product=holin;protein_id=AFV29195.1;transl_table=11
+JX871397.1	Genbank	gene	42627	43121	.	+	.	ID=gene-PHI80_59;Name=PHI80_59;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_59
+JX871397.1	Genbank	CDS	42627	43121	.	+	0	ID=cds-AFV29196.1;Parent=gene-PHI80_59;Dbxref=NCBI_GP:AFV29196.1;Name=AFV29196.1;Note=19%3B similar to lambda R;gbkey=CDS;locus_tag=PHI80_59;product=lysozyme;protein_id=AFV29196.1;transl_table=11
+JX871397.1	Genbank	gene	43118	43576	.	+	.	ID=gene-PHI80_60;Name=PHI80_60;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_60
+JX871397.1	Genbank	CDS	43118	43576	.	+	0	ID=cds-AFV29197.1;Parent=gene-PHI80_60;Dbxref=NCBI_GP:AFV29197.1;Name=AFV29197.1;Note=similar to lambda Rz;gbkey=CDS;locus_tag=PHI80_60;product=endopeptidase;protein_id=AFV29197.1;transl_table=11
+JX871397.1	Genbank	gene	43338	43523	.	+	.	ID=gene-PHI80_61;Name=PHI80_61;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_61
+JX871397.1	Genbank	CDS	43338	43523	.	+	0	ID=cds-AFV29198.1;Parent=gene-PHI80_61;Dbxref=NCBI_GP:AFV29198.1;Name=AFV29198.1;Note=similar to lambda Rz1;gbkey=CDS;locus_tag=PHI80_61;product=outer membrane lipoprotein Rz1;protein_id=AFV29198.1;transl_table=11
+JX871397.1	Genbank	terminator	43609	43631	.	+	.	ID=id-JX871397.1:43609..43631;Note=putative rightward transcription terminator;gbkey=regulatory;regulatory_class=terminator
+JX871397.1	Genbank	gene	43739	44293	.	+	.	ID=gene-PHI80_62;Name=rha;gbkey=Gene;gene=rha;gene_biotype=protein_coding;locus_tag=PHI80_62
+JX871397.1	Genbank	CDS	43739	44293	.	+	0	ID=cds-AFV29199.1;Parent=gene-PHI80_62;Dbxref=UniProtKB/TrEMBL:Q38450,NCBI_GP:AFV29199.1;Name=AFV29199.1;gbkey=CDS;gene=rha;locus_tag=PHI80_62;product=phage regulatory protein Rha;protein_id=AFV29199.1;transl_table=11
+JX871397.1	Genbank	gene	44365	44979	.	-	.	ID=gene-PHI80_63;Name=PHI80_63;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_63
+JX871397.1	Genbank	CDS	44365	44979	.	-	0	ID=cds-AFV29200.1;Parent=gene-PHI80_63;Dbxref=NCBI_GP:AFV29200.1;Name=AFV29200.1;gbkey=CDS;locus_tag=PHI80_63;product=hypothetical protein;protein_id=AFV29200.1;transl_table=11
+JX871397.1	Genbank	gene	44960	45190	.	+	.	ID=gene-PHI80_64;Name=PHI80_64;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_64
+JX871397.1	Genbank	CDS	44960	45190	.	+	0	ID=cds-AFV29201.1;Parent=gene-PHI80_64;Dbxref=UniProtKB/TrEMBL:Q38201,NCBI_GP:AFV29201.1;Name=AFV29201.1;Note=ORF x171.8;gbkey=CDS;locus_tag=PHI80_64;product=putative Fur-regulated protein;protein_id=AFV29201.1;transl_table=11
+JX871397.1	Genbank	gene	45229	45528	.	-	.	ID=gene-PHI80_65;Name=PHI80_65;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_65
+JX871397.1	Genbank	CDS	45229	45528	.	-	0	ID=cds-AFV29202.1;Parent=gene-PHI80_65;Dbxref=NCBI_GP:AFV29202.1;Name=AFV29202.1;gbkey=CDS;locus_tag=PHI80_65;product=hypothetical protein;protein_id=AFV29202.1;transl_table=11
+JX871397.1	Genbank	gene	45352	46080	.	+	.	ID=gene-PHI80_66;Name=PHI80_66;gbkey=Gene;gene_biotype=protein_coding;locus_tag=PHI80_66
+JX871397.1	Genbank	CDS	45352	46080	.	+	0	ID=cds-AFV29203.1;Parent=gene-PHI80_66;Dbxref=UniProtKB/TrEMBL:Q38202,NCBI_GP:AFV29203.1;Name=AFV29203.1;Note=similar to N15 gp59;gbkey=CDS;locus_tag=PHI80_66;product=hypothetical protein;protein_id=AFV29203.1;transl_table=11
+JX871397.1	Genbank	sequence_feature	46084	46138	.	+	.	ID=id-JX871397.1:46084..46138;Note=cosQ%3B aka R4 region;gbkey=misc_feature
+JX871397.1	Genbank	sequence_feature	46139	46150	.	+	.	ID=id-JX871397.1:46139..46150;Note=The last 12 bases are a single-stranded 3' extension (sticky end);gbkey=misc_feature;standard_name=cohesive end
+

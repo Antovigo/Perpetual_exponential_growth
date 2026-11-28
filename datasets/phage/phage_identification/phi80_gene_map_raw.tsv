@@ -1,0 +1,107 @@
+id	raw_start	raw_end	length	length_aa	reading_frame	product	N15_homolog	name
+s	1	12			-	GGGCGGCGACCT, sticky end		
+s	109	165			-	Inverted repeat, AGAAAGGAAA(38 N)TTTCCTTTCT		IR1
+1	190	732	543	181	F1	Terminase small subunit (Nu1)/lambda	gp1	Nu1
+2	710	2629	1920	640	F2	Terminase large subunit (A)/lambda	gp2	A
+3	2632	2835	204	68	F1	Head-tail joining protein (W)/N15, lambda	gp3	W
+4	2835	4424	1590	530	F3	Capsid portal protein (B)/N15, lambda	gp4	B
+5	4408	5748	1341	447	F1	Capsid serine protease (C)/N15, lambda	gp5	C
+6	5761	6090	330	110	F1	Head DNA stabilization protein (D)/N15, lambda	gp7	D
+7	6161	7183	1023	341	F2	Major capsid (head) protein (E)/N15, lambda	gp8	E
+8	7196	7645	450	150	F2	DNA-packaging protein (FI)/N15, lambda	gp9	FI
+9	7660	8010	351	117	F1	Head-tail joining protein (FII)/N15, lambda	gp10	FII
+10	8023	8604	582	194	F1	Minor tail protein (Z)/Fels-1, Gifsy-1, N15, lambda	gp11	Z
+11	8604	8999	396	132	F3	Tail capping + head interface protein (U)/N15, lambda	gp12	U
+12	9173	9559	386	129	F2	Putative protein, internal to gpV		
+12	9010	9750	741	247	F1	Major tail protein (V)/N15, lambda	gp13	V
+13	9764	10192	429	143	F2	Tail assembly chaperone (G)/N15, lambda	gp14	G
+14	10246	10515	270	90	F1	Minor tail protein (T)/N15, lambda	gp15	T
+s	10429	10469			-	Inverted repeat, GTCATCAGCG(21 N)CGCTGATGAC		IR2
+15	10502	13636	3135	1045	F2	Tail length tape measure protein precursor (H)/Fels-1, lambda, Gifsy-1, Gifsy-2, N15	gp16	H
+16	13636	13971	336	112	F1	Minor tail protein (M)/N15, lambda	gp17	M
+s	13996	14011			-	Rightward transcription terminator (between M and L)		
+17	14031	14765	735	245	F3	Minor tail protein (L)/N15, HK022, HK97, lambda	gp18	L
+s	14721	14737			-	Rightward transcription terminator (at the very end of L)		
+18	14770	15486	1401	467	F1	Tail fiber cell wall hydrolase (K)/N15, HK022, HK97	gp19	K
+19	15482	16096	615	205	F2	Tail assembly protein (I)/T1, N15, HK022 and HK97	gp20	I
+20	16104	16634	531	177	F3	Putative protein, 24% identity to molybdate-binding protein ModA		modA
+21	16630	20205	3576	1192	F1	Host specificity protein, tail fiber protein (J)/HK022, HK97, N15, lambda	gp21	J
+22	20210	20509	300	100	F2	Hypothetical phage protein, identical to HK022 gp24/N15, T1	gp22	gp24
+23	20512	21183	672	224	F1	Hypothetical phage protein/HK022, N15, T1	gp23	-
+24	21298	21528	231	77	F1	Phage superinfection exclusion protein Cor/HK022, N15, T1	Cor	cor
+s	21553	21568			-	Rightward transcription terminator (after cor)		
+25	21592	22800	1209	403	F1	Mosaic tail fiber protein/HK97, HK022, T1		-
+s	22746	22761	16		-	Weak LexA box.		
+26	22877	23188	312	104	F2	Putative protein, perfect antisense for dinL (the next gene)		
+27	23169	22933	237	79	R2	DinL (MsgA virulence protein) (macrophage survival gene), a relative of host DinI (DNA damage-inducible protein I)/Gifsy-2		dinL
+s	23210	23225	16		-	Strong LexA box in front of dinL/msgA		
+28	23526	23419	108	36	R2	Conserved hypothetical protein		-
+29	23874	23686	189	63	R2	Tail collar domain protein (gpH)/CP-933H		gpH
+s	23919	23945	27		-	Inverted repeat, CTTCTCCTGTTtttacAACAGGAGAAG, in front of pin		
+30	23951	24466	516	172	F2	DNA invertase, resolvase, site-specific recombinase Pin/e14		pin
+s	24623	24639			-	attP (ACACTTT)CTT(AAATTGT)		attP
+31	24808	26013	1206	402	F1	Experimentally established phi80 integrase (Int)/CP-933H, Gifsy-1		int
+s	25961	25981			-	Leftward transcription terminator (to stop xis transcription antisensing int)		
+32	26210	26015	195	65	R3	Experimentally established phi80 excisionase (Xis)		xis
+33	26497	26255	243	81	R1	Conserved hypothetical protein		-
+34	26930	26497	429	143	R2	DamL, a putative DNA adenine methylase protein, the C-terminal two-fifths/Salmonella enterica, P1, P7		damL
+35	27379	26924	456	152	R1	DamL, a putative DNA adenine methylase protein, the N-terminal three-fifths/S. enterica, P1, P7		damL’
+36	27959	27528	432	144	R3	Putative protein		-
+37	28630	27953	678	226	R1	DNA exonuclease (Exo), homologous recombination/CP-933K, lambda		exo
+38	29544	28630	915	305	R2	RecT, the phage recombinase-annealing protein/Rac		recT
+39	29835	29557	278	93	R2	GamL (host RecBCD/SbcCD enzyme inhibitor), toxic without Agt		gamL
+40	30811	29846	966	322	R1	Agt (alleviates Gam toxicity), the antitoxin for the toxic Lula GamL/ Sf6		agt
+41	31752	30919	834	278	R2	Putative protein		-
+42	31972	31766	207	69	R1	Kil, FtsZ inhibitor protein (blocks cell division)/Salmonella CT18 prophage, Rac		kil
+43	31904	32143	240	80	F2	Putative protein, completely overlaps and antisenses gp44		-
+44	32169	31972	198	66	R2	Putative protein, completely overlaps and antisenses gp43		-
+s	32262	32299			-	Leftward transcription terminator tL1B		
+s	32473	32495			-	Leftward transcription terminator tL1A		
+45	32790	32497	294	98	R2	Early transcription antiterminator protein N		N
+s	33078	33089			-	CACGTAAACGTG, nutL core (reverse orientation)		
+s	33134	33142			-	TGCTTTTTA, nutL boxA (reverse orientation)		
+s	33207	33225			-	oL1		oL1
+s	33207	33212			-	pL, −10 box		pL-10
+s	33230	33248			-	oL2		oL2
+s	33230	33235			-	pL, −35 box		pL-35
+s	33273	33292			-	oL3		oL3
+46	34454	33591	864	288	R3	"Protein 40A" of phi80 (other phage exclusion function?) (acetate kinase superfamily domain)		40A
+47	35355	34594	762	254	R2	CI transcriptional regulator		cI
+s	35321	35326			-	pRM, −10 box		pRM-10
+s	35323	35341			-	oR3		oR3
+s	35344	35349			-	pRM, −35 box		pRM-35
+s	35347	35365			-	oR2		oR2
+s	35360	35365			-	pR, −35 box		pR-35
+s	35380	35398			-	oR1		oR1
+s	35383	35388			-	pR, −10 box		pR-10
+48	35419	35637	219	73	F1	Cro-like transcriptional regulator		cro
+49	35671	36210	540	180	F1	CII decision-making protein		cII
+RNA	36229	36288			-	oop RNA (M3 RNA)		oop
+50	36299	37204	906	302	F2	Replication initiation protein (O), analog of host DnaA/lambda		O
+s	36663	36677			-	ori iteron 4		ori
+s	36683	36698			-	ori iteron 3		ori
+s	36704	36719			-	ori iteron 2		ori
+s	36725	36739			-	ori iteron 1		ori
+51	37204	37890	687	229	F1	Replication initiation protein (P), analog of host DnaC/lambda		P
+52	37957	38673	717	239	F1	Conserved hypothetical protein /CdtI	gp45	cdtI
+s	38786	38809	24		-	Inverted repeat, CGCATTTAAGgggaCTTAAATGCG		
+53	38897	39349	453	151	F2	Putative conserved phage protein		-
+54	39519	40184	666	222	F3	Phage protein phosphatases (PPP) (NinI, AKA Nin221)/lambda, P1, P7		ninI
+55	40180	40818	639	213	F1	DNA junction-specific endonuclease NinG (Rap, [Nin204])/lambda, P22		ninG
+56	40818	41021	204	68	F3	Restriction alleviation protein, Lar family		lar
+57	41137	41943	807	269	F1	Late transcription antitermination protein (Q)/Gifsy-2, lambda		Q
+s	41989	41994			-	pR′, −35 box		pR′-35
+s	42012	42017			-	pR′, −10 box		pR′-10
+s	42070	42098			-	Rightward transcription terminator (after Q)		
+s	42362	42385			-	Rightward transcription terminator (before S)		
+58	42425	42646	222	74	F2	Phage lysis protein (S), holin/DLP12, Qin		S
+59	42627	43118	492	164	F3	Phage lysozyme (R) (Lysis protein)/DLP12, PS119, PS34		R
+60	43118	43573	456	152	F2	Phage Rz lysis protein, endopeptidase (Rz)/Sf6, DLP12, lambda		Rz
+61	43338	43520	183	61	F3	Phage lipoprotein (Rz1) precursor/HK97, Sf6, lambda		Rz1
+s	43609	43631			-	Rightward transcription terminator (after Rz)		
+62	43739	44290	552	184	F2	Phage regulatory protein Rha, DNA synthesis inhibition in integration host factor-negative hosts		rha
+63	44979	44368	612	204	R2	Hypothetical protein		-
+64	44960	45187	228	76	F2	Fur-regulated protein 1		-
+65	45528	45232	297	99	R2	Putative protein		-
+66	45352	46077	726	242	F1	Conserved hypothetical protein/phiKO2	gp59	-
+s	46139	46150			-	GGGCGGCGACCT, sticky end		
